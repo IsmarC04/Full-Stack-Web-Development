@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2[draggable]{ 
+            color:red
+        }
+    </style>
+    <!-- What this means?-->
+    <!-- We select all h2 element with attribute "draggable"-->
+     <style>
+        h2[draggable=false]{
+            color:aqua
+        }
+     </style>
+     <!-- What this means?-->
+      <!-- WE select all h2 element with attribute "draggable" which contains value "false"-->
+</head>
+<body>
+    <h2 draggable>Drag me</h2>
+    <h2 draggable="false">Don't drag me</h2>
+    <h2 draggable="false">Don't drag me</h2>
+</body>
+</html>

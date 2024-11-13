@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./output.css"/>
+</head>
+<body>
+    <!--Position-->
+    <div class="relative bg-gray">
+        <div class="absolute top-0 left-0 bg-blue-500 p-4">Absolutely positioned</div>
+    </div>
+
+    <!--Top, right, bottom, left-->
+    <div class="relative">
+        <div class="absolute top-0 left-0 bg-red bg-green-500 p-2">Top-left corner</div>
+        <div class="absolute bottom-0 right-0 bg-green-500 p-2">Bottom-right corner</div>
+        
+    </div>
+
+    <!--Z-index-->
+    <div class="relative z-10 bg-blue-500 p-4">HIgher z-index</div>
+    <dov class="relative z-0 bg-gray-500 p-4 ">Lower z-index</dov>
+    
+</body>
+</html>

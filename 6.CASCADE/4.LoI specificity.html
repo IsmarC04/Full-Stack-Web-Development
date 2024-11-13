@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    li{color: aqua;}
+    .first-class{color: brown;}
+    li[attribute]{color: blueviolet;}
+    #first-id{color: yellow;}
+</style>
+<body>
+    
+        <ul>
+           <li id="first-id" class="first-class" attribute>first</li>
+        </ul>
+<!-- Text will YELLOW because of role of specificity.
+ SEQUENCE OF EXECUTION IS NEXT:
+ 1.ID
+ 2.ATTRIBUTE
+ 3.CLASS
+ 4.ELEMENT -->
+</body>
+</html>
